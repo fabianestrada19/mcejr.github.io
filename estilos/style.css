@@ -29,7 +29,7 @@ hr {
   /* Jumbotron (hero) */
   .jumbotron {
     position: relative;
-    background: url(../Images/fondo.jpg) no-repeat bottom center/cover;
+    background: url(../Images/22.jpeg) no-repeat bottom center/cover;
   }
   .jumbotron:before {
     position: absolute;
