@@ -288,20 +288,20 @@
                     <div class="col-md-10 col-lg-8">
                         <h1 class="h4">¿Tienes una pregunta? Ponte en contacto con nosotros</h1>
 
-                        <form action="" method="">
+                        <form action="enviar_mail.php" method="POST">
                             <fieldset class="form-group">
                                 <label for="formName">Tu nombre:</label>
-                                <input id="formName" class="form-control" type="text" placeholder="Tu nombre" required>
+                                <input name="nombre_del_emisor" id="formName" class="form-control" type="text" placeholder="Tu nombre" required>
                             </fieldset>
 
                             <fieldset class="form-group">
                                 <label for="formEmail1">Tu direccion de correo:</label>
-                                <input id="formEmail1" class="form-control" type="email" placeholder="Correo" required>
+                                <input name="email_emisor" id="formEmail1" class="form-control" type="email" placeholder="Correo" required>
                             </fieldset>
 
                             <fieldset class="form-group">
                                 <label for="formMessage">Tu mensaje:</label>
-                                <textarea id="formMessage" class="form-control" rows="3" placeholder="Tu mensaje"
+                                <textarea name="mensaje" id="formMessage" class="form-control" rows="3" placeholder="Tu mensaje"
                                     required></textarea>
                             </fieldset>
 
